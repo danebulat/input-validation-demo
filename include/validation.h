@@ -2,8 +2,8 @@
 #define ValidationUtils
 
 #include <algorithm>
+#include <cctype>     // input validation functions
 #include <iostream>
-#include <cctype>   // input validation functions
 #include <limits>
 #include <map>
 #include <string>
