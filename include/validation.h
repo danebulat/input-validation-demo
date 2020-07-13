@@ -205,7 +205,7 @@ namespace validation {
                 }
 
                 // Check space count
-                if (spaces != 1) {
+                if (spaces != 1 && valid) {
                     valid = false;
                     errorMessage += errorMessages[TooManySpaces];
                 }
